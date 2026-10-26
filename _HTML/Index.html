@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplos de Formulários</title>
+    <link rel="stylesheet" href="../_CSS/Index.css">
+</head>
+
+<body>
+    <header>
+        <h1>Exemplos de Formulário em HTML</h1>
+    </header>
+    <hr>
+    <h3>Exemplo 01</h3>
+    <form class="form1" method="get" action="../_PHP/Index.php">
+        <input type="text" name="name1" placeholder="Nome">
+        <input type="email" name="email" placeholder="Email">
+        <input type="tel" name="tel" placeholder="Celular">
+        <input type="password" name="senha" placeholder="Senha">
+        <input type="submit" name="botao" id="btt" value="Cadastrar">
+    </form>
+    <hr>
+    <h3>Exemplo 02</h3>
+    <form class="form2" method="get" action="../_PHP/Index.php">
+        <textarea name="texto"></textarea>
+    </form>
+    <hr>
+    <h3>Exemplo 03</h3>
+    <fieldset class="fieldset1">
+        <legend>Formulário</legend>
+        <form class="form3" method="get" action="../_PHP/Index.php">
+            <label>Nome: <input type="text" name="name2" id=""></label><p></p>
+            <label>Sexo: <input type="radio" name="sex">Masculino <input type="radio" name="sex">Feminino</label><p></p>
+            <label>País:
+                <select name="pais">
+                    <option value="0">Selecione Uma Opção</option>
+                    <option value="Brasil">Brasil</option>
+                    <option value="EUA">EUA</option>
+                    <option value="Italia">Italia</option>
+                    <option value="Japão">Japão</option>
+                    <option value="Outros...">Outros...</option>
+                </select>
+            </label><p></p>
+            <label>Mensagem:<br><textarea></textarea></label><p></p>
+            <label><input type="checkbox" name="NewsLetter">Assinar NewsLetter?</label><p></p>
+            <input type="submit" name="botao" id="btt2" value="Enviar">
+    </fieldset>
+    </form>
+    <hr>
+    <h3>Exemplo 04</h3>
+    <form class="form4" method="get" action="../_PHP/Index.php">
+        <input type="search">
+        <a href="https://wayground.com/join"><input type="submit" id="btt3" value="Clique para Pesquisar"></a>
+    </form>
+    <hr>
+    <h3>Exemplo 05</h3>
+    <fieldset class="fieldset2">
+        <legend>Selecione a cor que mais agrada</legend>
+        <form class="form5" method="get" action="../_PHP/Index.php">
+            <label><input type="checkbox">azul</label>
+            <label><input type="checkbox">vermelho</label>
+            <label><input type="checkbox">verde</label>
+            <label><input type="checkbox">amarelo</label>
+        </form>
+    </fieldset>
+</body>
+
+</html>
